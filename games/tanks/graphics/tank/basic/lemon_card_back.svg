@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.5in"
+   height="3.5in"
+   viewBox="0 0 1050 1050"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="lemon_card_back.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="in"
+     showgrid="true"
+     units="in"
+     width="3.5in"
+     scale-x="100"
+     inkscape:object-paths="false"
+     inkscape:snap-bbox="false"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:object-nodes="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="false"
+     inkscape:zoom="2"
+     inkscape:rotation="90"
+     inkscape:cx="167.25"
+     inkscape:cy="218.25"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid824"
+       units="in"
+       spacingx="5"
+       spacingy="5" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient86470">
+      <stop
+         style="stop-color:#f2c50c;stop-opacity:1"
+         offset="0"
+         id="stop86466" />
+      <stop
+         style="stop-color:#bf9a0a;stop-opacity:1"
+         offset="1"
+         id="stop86468" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8894"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8325"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7663"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7187"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect7146"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect6224"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient86470"
+       id="radialGradient86464"
+       cx="-1032.4642"
+       cy="286.47794"
+       fx="-1032.4642"
+       fy="286.47794"
+       r="324"
+       gradientTransform="matrix(1.0030865,8.568088e-5,1.1037555e-7,2.0833333,510.65093,-296.74057)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="card"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;stroke:#999999;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect870"
+       width="675"
+       height="1050"
+       x="-862.5"
+       y="4.6185278e-14"
+       rx="30"
+       ry="30"
+       transform="rotate(-90)" />
+    <rect
+       style="mix-blend-mode:normal;fill:url(#radialGradient86464);fill-opacity:1;stroke:#aa8800;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:1"
+       id="rect1292"
+       width="645"
+       height="1020"
+       x="-847.5"
+       y="15"
+       rx="18.428572"
+       ry="15"
+       transform="rotate(-90)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="logo">
+    <circle
+       style="fill:#ff6600;fill-opacity:1;stroke:#803300;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path991"
+       cx="350"
+       cy="525"
+       r="262.5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:1.25;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffcc00;fill-opacity:1;stroke:#786721;stroke-width:3.125"
+       x="-803.94092"
+       y="316.57507"
+       id="text6945"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan6943"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffcc00;stroke:#786721;stroke-width:3.125"
+         x="-803.94092"
+         y="316.57507">Lemons</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.6667px;line-height:1.25;font-family:'Bell MT';-inkscape-font-specification:'Bell MT Bold';fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.125"
+       x="-554.6499"
+       y="379.97687"
+       id="text6945-2"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan6943-60"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.6667px;font-family:'Bell MT';-inkscape-font-specification:'Bell MT Bold';fill:#000000;stroke:none;stroke-width:3.125"
+         x="-554.6499"
+         y="379.97687">to</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:150px;line-height:1.25;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#66ff00;fill-opacity:1;stroke:#338000;stroke-width:3.125"
+       x="-731.99536"
+       y="517.1167"
+       id="text6945-5"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan6943-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:extra-condensed;font-size:150px;font-family:Algerian;-inkscape-font-specification:'Algerian Extra-Condensed';fill:#66ff00;stroke:#338000;stroke-width:3.125"
+         x="-731.99536"
+         y="517.1167">Limes</tspan></text>
+  </g>
+</svg>

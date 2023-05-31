@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40mm"
+   height="40mm"
+   viewBox="0 0 40.000002 40.000002"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="body.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2070">Tank Body</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#cccccc"
+     bordercolor="#333333"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:document-units="mm"
+     showgrid="true"
+     units="mm"
+     height="128px"
+     width="40mm"
+     objecttolerance="10000"
+     guidecolor="#00ff00"
+     guideopacity="0.49803922"
+     inkscape:snap-perpendicular="false"
+     inkscape:snap-tangential="false"
+     guidetolerance="20"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-object-midpoints="false"
+     inkscape:zoom="2.096401"
+     inkscape:cx="16.456775"
+     inkscape:cy="106.61128"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1726"
+       color="#656565"
+       opacity="0.1254902"
+       empcolor="#333333"
+       empopacity="0.25098039"
+       units="mm"
+       empspacing="4"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       dotted="false"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2691"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Tracks"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <rect
+       style="fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke-width:0.091654"
+       id="rect31"
+       width="6"
+       height="30"
+       x="3"
+       y="5"
+       ry="0" />
+    <circle
+       style="fill:#1a1a1a;fill-opacity:1;stroke-width:0.317499"
+       id="path1830"
+       cx="6"
+       cy="5"
+       r="3" />
+    <circle
+       style="fill:#1a1a1a;fill-opacity:1;stroke-width:0.317499"
+       id="path1830-1"
+       cx="6"
+       cy="35"
+       r="3" />
+    <rect
+       style="display:inline;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke-width:0.091654"
+       id="rect31-9"
+       width="6"
+       height="30"
+       x="31"
+       y="5"
+       ry="0" />
+    <circle
+       style="display:inline;fill:#1a1a1a;fill-opacity:1;stroke-width:0.317499"
+       id="path1830-9"
+       cx="34"
+       cy="5"
+       r="3" />
+    <circle
+       style="display:inline;fill:#1a1a1a;fill-opacity:1;stroke-width:0.317499"
+       id="path1830-1-6"
+       cx="34"
+       cy="35"
+       r="3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Body">
+    <rect
+       style="fill:#333333;fill-opacity:1;stroke-width:0.264583"
+       id="rect2108"
+       width="22"
+       height="27.999998"
+       x="9"
+       y="6" />
+    <circle
+       style="fill:#666666;fill-opacity:1;stroke-width:0.4733"
+       id="path2335"
+       cx="20"
+       cy="20"
+       r="8" />
+  </g>
+  <metadata
+     id="metadata2068">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Tank Body</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

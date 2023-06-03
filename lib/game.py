@@ -1,3 +1,7 @@
+# Use faster alpha blending!
+import os
+os.environ['PYGAME_BLEND_ALPHA_SDL2'] = 1
+
 import pygame
 pygame.init()
 from sys import exit

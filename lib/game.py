@@ -20,16 +20,15 @@ class Game():
     def __init__(self):
 
         pygame.display.set_caption("PyGame")
-        flags = 0
-        if G.windowFullScreen:
-            flags |= pygame.FULLSCREEN
-        self.screen = pygame.display.set_mode((G.windowWidth, G.windowHeight),flags=flags)
+        flags = pygame.FULLSCREEN | pygame.SCALED | pygame.NOFRAME
+        self.screen = pygame.display.set_mode((G.gameWidth, G.gameHeight),flags=flags)
+        self.screen.set_alpha(None)
         self.bgcolor = (0,)*3
         self.appsurf = pygame.Surface((G.gameWidth,G.gameHeight))
 
-        G.gameScale = min(G.windowWidth//G.gameWidth,G.windowHeight//G.gameHeight)
-        G.gameScaledWidth, G.gameScaledHeight = G.gameWidth*G.gameScale, G.gameHeight*G.gameScale
-        G.gameDeltaX, G.gameDeltaY = (G.windowWidth-G.gameScaledWidth)//2, (G.windowHeight-G.gameScaledHeight)//2
+        # G.gameScale = min(G.windowWidth//G.gameWidth,G.windowHeight//G.gameHeight)
+        # G.gameScaledWidth, G.gameScaledHeight = G.gameWidth*G.gameScale, G.gameHeight*G.gameScale
+        # G.gameDeltaX, G.gameDeltaY = (G.windowWidth-G.gameScaledWidth)//2, (G.windowHeight-G.gameScaledHeight)//2
 
     def run(self):
 
@@ -42,7 +41,8 @@ class Game():
             self.draw()
 
             # Upscale game resolution to fit screen
-            self.screen.blit(pygame.transform.scale_by(self.appsurf,G.gameScale),(G.gameDeltaX, G.gameDeltaY))
+            # self.screen.blit(pygame.transform.scale_by(self.appsurf,G.gameScale),(G.gameDeltaX, G.gameDeltaY))
+            self.screen.blit(self.appsurf,(0,0))
 
             # Draw screen
             pygame.display.flip()
@@ -60,16 +60,6 @@ class Game():
             # Close game when window X button is pressed
             if event.type == pygame.QUIT:
                 self.exit()
-            # elif event.type == pygame.JOYBUTTONDOWN:
-            #     print(f"{event.button} button pressed.")
-            # elif event.type == pygame.JOYBUTTONUP:
-            #     print(f"{event.button} button released.")
-            # elif event.type == pygame.JOYHATMOTION:
-            #     print(f"Hat {event.hat}: {event.value}")
-            # elif event.type == pygame.JOYAXISMOTION:
-            #     print(f"Axis {event.axis}: {event.value}")
-            # elif event.type == pygame.JOYBALLMOTION:
-            #     print(f"Ball {event.ball}: {event.rel}")
 
             # Handle hotplugging
             if event.type == pygame.JOYDEVICEADDED:

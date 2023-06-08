@@ -21,14 +21,10 @@ class Game():
 
         pygame.display.set_caption("PyGame")
         flags = pygame.FULLSCREEN | pygame.SCALED | pygame.NOFRAME
-        self.screen = pygame.display.set_mode((G.gameWidth, G.gameHeight),flags=flags)
-        self.screen.set_alpha(None)
+        self.appsurf = pygame.display.set_mode((G.gameWidth, G.gameHeight),flags=flags)
+        self.appsurf.set_alpha(None)
         self.bgcolor = (0,)*3
-        self.appsurf = pygame.Surface((G.gameWidth,G.gameHeight))
-
-        # G.gameScale = min(G.windowWidth//G.gameWidth,G.windowHeight//G.gameHeight)
-        # G.gameScaledWidth, G.gameScaledHeight = G.gameWidth*G.gameScale, G.gameHeight*G.gameScale
-        # G.gameDeltaX, G.gameDeltaY = (G.windowWidth-G.gameScaledWidth)//2, (G.windowHeight-G.gameScaledHeight)//2
+        # self.appsurf = pygame.Surface((G.gameWidth,G.gameHeight))
 
     def run(self):
 
@@ -39,10 +35,8 @@ class Game():
             self.input()
             self.step()
             self.draw()
-
-            # Upscale game resolution to fit screen
-            # self.screen.blit(pygame.transform.scale_by(self.appsurf,G.gameScale),(G.gameDeltaX, G.gameDeltaY))
-            self.screen.blit(self.appsurf,(0,0))
+            
+            # self.screen.blit(self.appsurf,(0,0))
 
             # Draw screen
             pygame.display.flip()

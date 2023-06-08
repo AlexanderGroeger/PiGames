@@ -16,7 +16,7 @@ class Main(Scene):
         mixer.music.play(-1)
         for (i, s) in zip(range(4,0,-1),(1,2,4,6)):
             dark_forest_background = ScrollingBackground(
-                img = G.am.getGraphic(f"background/dark_forest/{i}"),
+                img = G.am.getGraphic(f"background/dark_forest/{i}",alpha=True),
                 hspeed = -s,
                 wrap = True
             )

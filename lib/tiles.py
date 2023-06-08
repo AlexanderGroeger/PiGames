@@ -1,12 +1,16 @@
 import pygame
 
 class Tileset:
-    def __init__(self, file, size=(32, 32), margin=0, spacing=0):
+    
+    def __init__(self, file, size=(32, 32), margin=0, spacing=0, alpha=False):
         self.file = file
         self.size = size if type(size) == tuple else (size,)*2
         self.margin = margin
         self.spacing = spacing
-        self.image = pygame.image.load(file).convert_alpha()
+        if alpha:
+            self.image = pygame.image.load(file).convert_alpha()
+        else:
+            self.image = pygame.image.load(file).convert()
         self.rect = self.image.get_rect()
         self.tiles = []
         self.load()

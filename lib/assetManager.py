@@ -10,10 +10,13 @@ from lib.tiles import Tileset
 import lib.globals as G
 
 class AssetManager:
-    def getGraphic(self, fname):
+    
+    def getGraphic(self, fname, alpha=False):
         path = glob.glob(f'{G.gameDir}/graphics/{fname}.*')[0]
-        img = load(path).convert_alpha()
-        return img
+        if alpha:
+            return load(path).convert_alpha()
+        else:
+            return load(path).convert()
 
     def getTileset(self, fname, **kwargs):
         path = glob.glob(f'{G.gameDir}/graphics/{fname}.*')[0]

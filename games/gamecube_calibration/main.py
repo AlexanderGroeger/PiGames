@@ -14,7 +14,7 @@ class Driver(Game):
 
         G.GAMECUBE_GRAPHICS = {}
         for filename in os.listdir(f"{G.gameDir}/graphics/buttons"):
-            G.GAMECUBE_GRAPHICS[filename.split('.')[0]] = G.am.getGraphic(f"buttons/{filename.split('.')[0]}")
+            G.GAMECUBE_GRAPHICS[filename.split('.')[0]] = G.am.getGraphic(f"buttons/{filename.split('.')[0]}",alpha=True)
 
         G.GAMECUBE_GRAPHIC_POSITION = {
             "left_shoulder": (0,0),

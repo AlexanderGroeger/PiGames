@@ -16,7 +16,8 @@ use_fullscreen = args.fullscreen
 
 game_width, game_height = 512, 288
 fps = 60
-color_red, color_blue = (64,16,16), (16,16,64)
+color_red1, color_red2 = (64,16,16), (63,15,15)
+color_blue1, color_blue2 = (16,16,64), (15,15,63)
 scale_factor = 5
 
 flags = pygame.NOFRAME
@@ -32,6 +33,7 @@ screen = pygame.display.set_mode((game_width*scale_factor, game_height*scale_fac
 screen.set_alpha(None)
 appsurf = pygame.Surface((game_width,game_height))
 clock = pygame.time.Clock()
+paint_darker = False
 
 while True:
     
@@ -43,10 +45,12 @@ while True:
             exit()
     
     if use_scaled:
-        screen.fill(color_red)
+        screen.fill(color_red2 if paint_darker else color_red1)
     else:
-        appsurf.fill(color_blue)
+        appsurf.fill(color_blue2 if paint_darker else color_blue1)
         pygame.transform.scale_by(appsurf, scale_factor, screen)
         
-    pygame.display.flip()    
+    pygame.display.flip()
+    
+    paint_darker = not paint_darker
     clock.tick(fps)

@@ -90,10 +90,10 @@ class Controller(Instance):
         draw_button("select",self.controller.get_button(SELECT_BUTTON))
         draw_button("left_shoulder",self.controller.get_button(LEFT_SHOULDER_BUTTON))
         draw_button("right_shoulder",self.controller.get_button(RIGHT_SHOULDER_BUTTON))
-        draw_button('dpad_right',self.controller.get_axis(HSTICK1)>0)
-        draw_button('dpad_left',self.controller.get_axis(HSTICK1)<0)
-        draw_button('dpad_up',self.controller.get_axis(VSTICK1)<0)
-        draw_button('dpad_down',self.controller.get_axis(VSTICK1)>0)
+        draw_button('dpad_right',self.controller.get_axis(HSTICK1)>0.5)
+        draw_button('dpad_left',self.controller.get_axis(HSTICK1)<-0.5)
+        draw_button('dpad_up',self.controller.get_axis(VSTICK1)<-0.5)
+        draw_button('dpad_down',self.controller.get_axis(VSTICK1)>0.5)
         self.draw_controller_id(surf,'device_num')
         # draw_joystick("dpad",
         #     dir = (

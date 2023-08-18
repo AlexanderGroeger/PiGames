@@ -55,5 +55,6 @@ class SNESController(Controller):
 
 
 controller_guids = {
-    "03000069790000002601000000000000": SNESController
+    "03000069790000002601000000000000": SNESController,
+    "03000069790000002601000011010000": SNESController,
 }

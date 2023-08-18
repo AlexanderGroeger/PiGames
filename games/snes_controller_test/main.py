@@ -9,6 +9,8 @@ Controller = G.mm.getModule("controller").Controller
 class Driver(Game):
 
     def __init__(self):
+        G.gameWidth, G.gameHeight = (2*256, 2*144)
+        G.windowFullScreen = False
         super().__init__()
         self.bgcolor = (24, 24, 24)
 
@@ -39,8 +41,8 @@ class Driver(Game):
             c = Controller(
                 pygame.joystick.Joystick(self.joystick_count-i-1),
                 xy = (
-                    2*n+(i % 4)*n*10,
-                    3*n//2+(i // 4)*n*7,
+                    2*n+(i % 3)*n*10,
+                    3*n//2+(i // 3)*n*4,
                 ),
             )
             self.controllers.append(c)

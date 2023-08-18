@@ -20,11 +20,13 @@ class Game():
     def __init__(self):
 
         pygame.display.set_caption("PyGame")
-        flags = pygame.FULLSCREEN | pygame.SCALED | pygame.NOFRAME
-        self.appsurf = pygame.display.set_mode((G.gameWidth, G.gameHeight),flags=flags)
-        self.appsurf.set_alpha(None)
+        flags = pygame.NOFRAME
+        if G.windowFullScreen:
+            flags |= pygame.FULLSCREEN | pygame.SCALED
+        self.winsurf = pygame.display.set_mode((G.windowWidth, G.windowHeight),flags=flags)
+        self.winsurf.set_alpha(None)
         self.bgcolor = (0,)*3
-        # self.appsurf = pygame.Surface((G.gameWidth,G.gameHeight))
+        self.appsurf = pygame.Surface((G.gameWidth,G.gameHeight))
 
     def run(self):
 
@@ -36,10 +38,7 @@ class Game():
             self.step()
             self.draw()
             
-            # self.screen.blit(self.appsurf,(0,0))
-
-            # Draw screen
-            pygame.display.flip()
+            
 
             G.t += 1
             self.clock.tick(G.fps)
@@ -98,7 +97,11 @@ class Game():
         # Draw objects
         for obj in G.objects:
             obj.draw(self.appsurf)
+            
 
+        # Draw upscaled screen
+        self.winsurf.blit(pygame.transform.scale(self.appsurf, (G.windowWidth,G.windowHeight)),(0,0))
+        pygame.display.flip()
 
 
     def exit(self):

@@ -37,8 +37,11 @@ class Game():
             self.input()
             self.step()
             self.draw()
-            
-            
+
+            # self.screen.blit(self.appsurf,(0,0))
+
+            # Draw screen
+            pygame.display.flip()
 
             G.t += 1
             self.clock.tick(G.fps)
@@ -61,7 +64,7 @@ class Game():
 
                 joy = pygame.joystick.Joystick(event.device_index)
                 G.controllers[str(joy.get_instance_id())] = controller_guids.get(event.__dict__.get("guid"), Controller)(joy)
-                print(f"Joystick {joy.get_instance_id()} connencted")
+                print(f"Joystick {joy.get_instance_id()} connected")
 
             if event.type == pygame.JOYDEVICEREMOVED:
                 del G.joysticks[event.instance_id]
